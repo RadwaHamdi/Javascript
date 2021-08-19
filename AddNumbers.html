@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type="text/javascript">
+function calc(){
+	num_one = document.getElementById('num1').value;
+	num_two = document.getElementById('num2').value;
+	sum = parseInt(num_one) + parseInt(num_two);
+	document.getElementById('result').value=sum;
+}
+</script>
+</head>
+<body>
+<input type="number" id="num1" value="5"/>
+<input type="number" id="num2" value="6"/>
+<input type="text" id="result" />
+<button type="button" onclick="calc()"> Calc </button>
+</body>
+</html>
